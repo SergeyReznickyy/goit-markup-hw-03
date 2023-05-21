@@ -51,13 +51,18 @@ img {
   margin: 0 auto;
 }
 /* -----------------   HEADER  ---------------------- */
-.header {
+/* .header {
   padding-top: 24px;
   padding-bottom: 24px;
-}
+  border-bottom: 1px solid #e7e9fc;
+} */
 .header-conteiner {
   display: flex;
   align-items: center;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation {
@@ -141,9 +146,11 @@ img {
 .hero-button {
   min-width: 169px;
   height: 56px;
-  display: inline-block;
+  display: block;
   border-radius: 4px;
   padding: 16px 32px;
+  cursor: pointer;
+  margin: 0 auto;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
@@ -275,10 +282,12 @@ img {
 /* -----------------   FOOTER  --------------------- */
 .footer {
   background-color: var(--text-color-second);
-  padding-top: 101.5px;
-  padding-bottom: 100px;
 }
-
+.list-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: inline-block;
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -294,7 +303,7 @@ img {
 }
 .footer-text {
   width: 264px;
-  margin-top: 18px;
+  margin-top: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
