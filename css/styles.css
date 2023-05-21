@@ -46,20 +46,18 @@ img {
 
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px 0 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
   margin: 0 auto;
 }
 /* -----------------   HEADER  ---------------------- */
-/* .header {
+.header {
   border-bottom: 1px solid #e7e9fc;
-} */
+}
 .header-conteiner {
   display: flex;
   align-items: center;
-
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-navigation {
@@ -68,6 +66,8 @@ img {
 }
 
 .header-nav-list {
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: flex;
   gap: 40px;
 }
