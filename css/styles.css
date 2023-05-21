@@ -167,7 +167,16 @@ img {
 }
 
 .about-title {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .about-width {
   width: 25%;
@@ -191,7 +200,6 @@ img {
 
 /* -----------------   PRODUСT  --------------------- */
 .product {
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 .product-title {
@@ -210,9 +218,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.img-product {
-  border: 1px solid #e7e9fc;
-}
+
 /* -----------------   Team  --------------------- */
 .team {
   background-color: var(--dark-white-color);
@@ -302,7 +308,16 @@ img {
 }
 
 .portfolio-title {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .portfolio-list {
   display: flex;
@@ -359,7 +374,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .portfolio-text {
